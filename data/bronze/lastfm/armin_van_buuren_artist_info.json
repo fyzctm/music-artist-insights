@@ -1,0 +1,229 @@
+{
+  "artist": {
+    "name": "Armin van Buuren",
+    "mbid": "477b8c0c-c5fc-4ad2-b5b2-191f0bf2a9df",
+    "url": "https://www.last.fm/music/Armin+van+Buuren",
+    "image": [
+      {
+        "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+        "size": "small"
+      },
+      {
+        "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+        "size": "medium"
+      },
+      {
+        "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+        "size": "large"
+      },
+      {
+        "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+        "size": "extralarge"
+      },
+      {
+        "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+        "size": "mega"
+      },
+      {
+        "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+        "size": ""
+      }
+    ],
+    "streamable": "0",
+    "ontour": "1",
+    "stats": {
+      "listeners": "1787610",
+      "playcount": "62506007"
+    },
+    "similar": {
+      "artist": [
+        {
+          "name": "Ferry Corsten",
+          "url": "https://www.last.fm/music/Ferry+Corsten",
+          "image": [
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "extralarge"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "mega"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": ""
+            }
+          ]
+        },
+        {
+          "name": "Ben Gold",
+          "url": "https://www.last.fm/music/Ben+Gold",
+          "image": [
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "extralarge"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "mega"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": ""
+            }
+          ]
+        },
+        {
+          "name": "Andrew Rayel",
+          "url": "https://www.last.fm/music/Andrew+Rayel",
+          "image": [
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "extralarge"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "mega"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": ""
+            }
+          ]
+        },
+        {
+          "name": "Tiësto",
+          "url": "https://www.last.fm/music/Ti%C3%ABsto",
+          "image": [
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "extralarge"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "mega"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": ""
+            }
+          ]
+        },
+        {
+          "name": "Above & Beyond",
+          "url": "https://www.last.fm/music/Above+&+Beyond",
+          "image": [
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "extralarge"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": "mega"
+            },
+            {
+              "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+              "size": ""
+            }
+          ]
+        }
+      ]
+    },
+    "tags": {
+      "tag": [
+        {
+          "name": "trance",
+          "url": "https://www.last.fm/tag/trance"
+        },
+        {
+          "name": "progressive trance",
+          "url": "https://www.last.fm/tag/progressive+trance"
+        },
+        {
+          "name": "electronic",
+          "url": "https://www.last.fm/tag/electronic"
+        },
+        {
+          "name": "vocal trance",
+          "url": "https://www.last.fm/tag/vocal+trance"
+        },
+        {
+          "name": "dance",
+          "url": "https://www.last.fm/tag/dance"
+        }
+      ]
+    },
+    "bio": {
+      "links": {
+        "link": {
+          "#text": "",
+          "rel": "original",
+          "href": "https://last.fm/music/Armin+van+Buuren/+wiki"
+        }
+      },
+      "published": "08 Mar 2006, 23:51",
+      "summary": "Armin Jozef Jacobus Daniël van Buuren (born 25 December 1976) is a Dutch DJ and record producer. Since 2001, he has hosted \"A State of Trance\" (ASOT), a weekly radio show broadcast to nearly 40 million listeners in 84 countries via more than 100 FM radio stations.\n\nVan Buuren has received multiple accolades throughout his career. He has been ranked the number one DJ by DJ Mag five times, including four consecutive years. He was placed fifth in the DJ Mag Top 100 DJs list in 2022, fourth in 2015, 2016, 2019 and 2020, and third in 2017. <a href=\"https://www.last.fm/music/Armin+van+Buuren\">Read more on Last.fm</a>",
+      "content": "Armin Jozef Jacobus Daniël van Buuren (born 25 December 1976) is a Dutch DJ and record producer. Since 2001, he has hosted \"A State of Trance\" (ASOT), a weekly radio show broadcast to nearly 40 million listeners in 84 countries via more than 100 FM radio stations.\n\nVan Buuren has received multiple accolades throughout his career. He has been ranked the number one DJ by DJ Mag five times, including four consecutive years. He was placed fifth in the DJ Mag Top 100 DJs list in 2022, fourth in 2015, 2016, 2019 and 2020, and third in 2017. In 2014, he was nominated for a Grammy Award for Best Dance Recording for the single \"This Is What It Feels Like\" featuring Trevor Guthrie, becoming the fourth trance artist to receive a Grammy nomination. In the United States, he holds the record for the most entries, twenty-one, on the Billboard Dance/Electronic Albums chart. <a href=\"https://www.last.fm/music/Armin+van+Buuren\">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+    }
+  }
+}

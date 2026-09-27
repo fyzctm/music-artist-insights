@@ -21,6 +21,25 @@ GOLD_OUTPUT = Path(
     "release_metrics_by_year.csv"
 )
 
+LASTFM_PROFILE_FILE = Path(
+    "data/silver/lastfm/armin_van_buuren_artist_profile.csv"
+)
+
+LASTFM_SNAPSHOTS_FILE = Path(
+    "data/silver/lastfm/armin_van_buuren_audience_snapshots.csv"
+)
+
+LASTFM_TAGS_FILE = Path(
+    "data/silver/lastfm/armin_van_buuren_tags.csv"
+)
+
+LASTFM_SIMILAR_FILE = Path(
+    "data/silver/lastfm/armin_van_buuren_similar_artists.csv"
+)
+
+LASTFM_GOLD_SQL_FILE = Path(
+    "sql/03_build_gold_lastfm_metrics.sql"
+)
 
 def create_database():
 
@@ -63,6 +82,48 @@ def export_gold_metrics(connection):
         """
     )
 
+def load_lastfm_silver(connection):
+
+    connection.execute(
+        f"""
+        CREATE OR REPLACE TABLE lastfm_artist_profile AS
+        SELECT *
+        FROM read_csv_auto('{LASTFM_PROFILE_FILE}')
+        """
+    )
+
+    connection.execute(
+        f"""
+        CREATE OR REPLACE TABLE lastfm_audience_snapshots AS
+        SELECT *
+        FROM read_csv_auto('{LASTFM_SNAPSHOTS_FILE}')
+        """
+    )
+
+    connection.execute(
+        f"""
+        CREATE OR REPLACE TABLE lastfm_artist_tags AS
+        SELECT *
+        FROM read_csv_auto('{LASTFM_TAGS_FILE}')
+        """
+    )
+
+    connection.execute(
+        f"""
+        CREATE OR REPLACE TABLE lastfm_similar_artists AS
+        SELECT *
+        FROM read_csv_auto('{LASTFM_SIMILAR_FILE}')
+        """
+    )
+
+
+def build_lastfm_gold(connection):
+
+    sql = LASTFM_GOLD_SQL_FILE.read_text(
+        encoding="utf-8"
+    )
+
+    connection.execute(sql)
 
 if __name__ == "__main__":
 
@@ -90,6 +151,18 @@ if __name__ == "__main__":
         f"Gold data saved to: {GOLD_OUTPUT}"
     )
 
+    load_lastfm_silver(con)
+
+    print(
+        "Last.fm Silver tables loaded."
+    )
+
+    build_lastfm_gold(con)
+
+    print(
+        "Last.fm Gold metrics created."
+    )
+
     print("\nLatest Gold metrics:")
 
     results = con.execute(
@@ -102,5 +175,18 @@ if __name__ == "__main__":
     ).fetchdf()
 
     print(results.to_string(index=False))
+
+    print("\nLatest Last.fm Gold metrics:")
+
+    lastfm_results = con.execute(
+        """
+        SELECT *
+        FROM gold_lastfm_audience_metrics
+        ORDER BY snapshot_date DESC
+        LIMIT 10
+        """
+    ).fetchdf()
+
+    print(lastfm_results.to_string(index=False))
 
     con.close()
