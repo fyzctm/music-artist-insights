@@ -41,6 +41,10 @@ LASTFM_GOLD_SQL_FILE = Path(
     "sql/03_build_gold_lastfm_metrics.sql"
 )
 
+ARTIST_INSIGHTS_SQL_FILE = Path(
+    "sql/04_build_artist_insights.sql"
+)
+
 def create_database():
 
     connection = duckdb.connect(
@@ -125,6 +129,16 @@ def build_lastfm_gold(connection):
 
     connection.execute(sql)
 
+
+def build_artist_insights(connection):
+
+    sql = ARTIST_INSIGHTS_SQL_FILE.read_text(
+        encoding="utf-8"
+    )
+
+    connection.execute(sql)
+
+
 if __name__ == "__main__":
 
     con = create_database()
@@ -188,5 +202,21 @@ if __name__ == "__main__":
     ).fetchdf()
 
     print(lastfm_results.to_string(index=False))
+
+    build_artist_insights(con)
+
+    print(
+        "\nUnified Artist Gold insights created."
+    )
+
+    artist_results = con.execute(
+        """
+        SELECT *
+        FROM gold_artist_insights
+        """
+    ).fetchdf()
+
+    print("\nUnified Artist Insights:")
+    print(artist_results.to_string(index=False))
 
     con.close()
