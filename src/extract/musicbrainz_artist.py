@@ -1,8 +1,15 @@
 import json
+import re
+import sys
+import unicodedata
 from pathlib import Path
 
 import requests
 
+
+# --------------------------------------------------
+# Configuration
+# --------------------------------------------------
 
 BASE_URL = "https://musicbrainz.org/ws/2"
 
@@ -13,6 +20,34 @@ HEADERS = {
 BRONZE_PATH = Path("data/bronze/musicbrainz")
 
 
+# --------------------------------------------------
+# Helpers
+# --------------------------------------------------
+
+def create_slug(value):
+    """
+    Convert an artist name into a filesystem-friendly slug.
+
+    Example:
+    Armin van Buuren -> armin_van_buuren
+    Tiësto -> tiesto
+    Above & Beyond -> above_beyond
+    """
+
+    value = unicodedata.normalize("NFKD", value)
+    value = value.encode("ascii", "ignore").decode("ascii")
+    value = value.lower()
+
+    value = re.sub(r"[^a-z0-9]+", "_", value)
+    value = value.strip("_")
+
+    return value
+
+
+# --------------------------------------------------
+# Extract
+# --------------------------------------------------
+
 def search_artist(artist_name):
     """Search MusicBrainz for an artist."""
 
@@ -21,14 +56,14 @@ def search_artist(artist_name):
     params = {
         "query": f'artist:"{artist_name}"',
         "fmt": "json",
-        "limit": 5
+        "limit": 5,
     }
 
     response = requests.get(
         url,
         headers=HEADERS,
         params=params,
-        timeout=30
+        timeout=30,
     )
 
     response.raise_for_status()
@@ -36,42 +71,90 @@ def search_artist(artist_name):
     return response.json()
 
 
-def save_raw_json(data, filename):
-    """Save raw API response to the Bronze layer."""
+# --------------------------------------------------
+# Save Bronze data
+# --------------------------------------------------
 
-    BRONZE_PATH.mkdir(parents=True, exist_ok=True)
+def save_raw_json(data, artist_name):
 
-    filepath = BRONZE_PATH / filename
+    artist_slug = create_slug(
+        artist_name
+    )
 
-    with open(filepath, "w", encoding="utf-8") as file:
+    filename = (
+        f"{artist_slug}_artist_search.json"
+    )
+
+    BRONZE_PATH.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    filepath = (
+        BRONZE_PATH / filename
+    )
+
+    with filepath.open(
+        "w",
+        encoding="utf-8",
+    ) as file:
+
         json.dump(
             data,
             file,
             ensure_ascii=False,
-            indent=2
+            indent=2,
         )
 
-    print(f"Saved raw data to: {filepath}")
+    return filepath
+
+
+# --------------------------------------------------
+# Run
+# --------------------------------------------------
+
+def main():
+
+    if len(sys.argv) > 1:
+        artist_name = " ".join(
+            sys.argv[1:]
+        )
+    else:
+        artist_name = "Armin van Buuren"
+
+    data = search_artist(
+        artist_name
+    )
+
+    filepath = save_raw_json(
+        data,
+        artist_name,
+    )
+
+    print(
+        f"Saved raw data to: {filepath}"
+    )
+
+    print()
+    print(
+        f"MusicBrainz search results for: "
+        f"{artist_name}"
+    )
+    print()
+
+    for rank, artist in enumerate(
+        data.get("artists", []),
+        start=1,
+    ):
+
+        print(
+            f"{rank}. "
+            f"{artist.get('name')} "
+            f"| country: {artist.get('country')} "
+            f"| MBID: {artist.get('id')} "
+            f"| score: {artist.get('score')}"
+        )
 
 
 if __name__ == "__main__":
-
-    artist_name = "Armin van Buuren"
-
-    data = search_artist(artist_name)
-
-    save_raw_json(
-        data,
-        "armin_van_buuren_artist_search.json"
-    )
-
-    for artist in data["artists"]:
-        print(
-            artist["name"],
-            "|",
-            artist.get("country"),
-            "|",
-            artist["id"],
-            "| score:",
-            artist.get("score")
-        )
+    main()

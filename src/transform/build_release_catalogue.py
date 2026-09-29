@@ -1,21 +1,41 @@
 import json
+import sys
+import unicodedata
 from pathlib import Path
 
 import pandas as pd
 
 
-BRONZE_FILE = Path(
-    "data/bronze/musicbrainz/"
-    "armin_van_buuren_release_groups.json"
-)
-
+BRONZE_PATH = Path("data/bronze/musicbrainz")
 SILVER_PATH = Path("data/silver/musicbrainz")
 
 
-def load_bronze_data():
+def make_artist_slug(artist_name):
+    """
+    Convert an artist name into a consistent, file-safe slug.
+
+    Examples:
+    Armin van Buuren -> armin_van_buuren
+    Tiësto -> tiesto
+    """
+    return (
+        unicodedata.normalize("NFKD", artist_name)
+        .encode("ascii", "ignore")
+        .decode("ascii")
+        .lower()
+        .replace(" ", "_")
+    )
+
+
+def load_bronze_data(artist_slug):
     """Load raw MusicBrainz release-group data."""
 
-    with open(BRONZE_FILE, "r", encoding="utf-8") as file:
+    bronze_file = (
+        BRONZE_PATH
+        / f"{artist_slug}_release_groups.json"
+    )
+
+    with open(bronze_file, "r", encoding="utf-8") as file:
         return json.load(file)
 
 
@@ -57,9 +77,10 @@ def transform_release_groups(release_groups):
     ].copy()
 
     df["first_release_date"] = pd.to_datetime(
-        df["first_release_date"],
-        errors="coerce"
-    )
+    df["first_release_date"],
+    format="mixed",
+    errors="coerce"
+)
 
     df = df.dropna(
         subset=["first_release_date"]
@@ -72,7 +93,8 @@ def transform_release_groups(release_groups):
     return df
 
 
-def save_silver_data(df):
+def save_silver_data(df, artist_slug):
+    """Save the transformed catalogue to the Silver layer."""
 
     SILVER_PATH.mkdir(
         parents=True,
@@ -81,7 +103,7 @@ def save_silver_data(df):
 
     filepath = (
         SILVER_PATH
-        / "armin_van_buuren_release_catalogue.csv"
+        / f"{artist_slug}_release_catalogue.csv"
     )
 
     df.to_csv(
@@ -92,15 +114,31 @@ def save_silver_data(df):
     print(f"Saved Silver data to: {filepath}")
 
 
-if __name__ == "__main__":
+def main():
 
-    release_groups = load_bronze_data()
+    artist_name = (
+        sys.argv[1]
+        if len(sys.argv) > 1
+        else "Armin van Buuren"
+    )
+
+    artist_slug = make_artist_slug(artist_name)
+
+    print(f"Artist: {artist_name}")
+    print(f"Artist slug: {artist_slug}")
+
+    release_groups = load_bronze_data(
+        artist_slug
+    )
 
     catalogue = transform_release_groups(
         release_groups
     )
 
-    save_silver_data(catalogue)
+    save_silver_data(
+        catalogue,
+        artist_slug
+    )
 
     print(f"\nSilver catalogue rows: {len(catalogue)}")
 
@@ -127,4 +165,7 @@ if __name__ == "__main__":
             ]
         ].head(10)
     )
-    
+
+
+if __name__ == "__main__":
+    main()
