@@ -7,9 +7,8 @@ DATABASE_FILE = Path(
     "music_artist_insights.duckdb"
 )
 
-SILVER_FILE = Path(
-    "data/silver/musicbrainz/"
-    "armin_van_buuren_release_catalogue.csv"
+MUSICBRAINZ_SILVER_PATH = Path(
+    "data/silver/musicbrainz"
 )
 
 GOLD_SQL_FILE = Path(
@@ -21,20 +20,8 @@ GOLD_OUTPUT = Path(
     "release_metrics_by_year.csv"
 )
 
-LASTFM_PROFILE_FILE = Path(
-    "data/silver/lastfm/armin_van_buuren_artist_profile.csv"
-)
-
-LASTFM_SNAPSHOTS_FILE = Path(
-    "data/silver/lastfm/armin_van_buuren_audience_snapshots.csv"
-)
-
-LASTFM_TAGS_FILE = Path(
-    "data/silver/lastfm/armin_van_buuren_tags.csv"
-)
-
-LASTFM_SIMILAR_FILE = Path(
-    "data/silver/lastfm/armin_van_buuren_similar_artists.csv"
+LASTFM_SILVER_PATH = Path(
+    "data/silver/lastfm"
 )
 
 LASTFM_GOLD_SQL_FILE = Path(
@@ -45,17 +32,26 @@ ARTIST_INSIGHTS_SQL_FILE = Path(
     "sql/04_build_artist_insights.sql"
 )
 
+
 def create_database():
 
     connection = duckdb.connect(
         str(DATABASE_FILE)
     )
 
+    silver_pattern = (
+        MUSICBRAINZ_SILVER_PATH
+        / "*_release_catalogue.csv"
+    )
+
     connection.execute(
         f"""
         CREATE OR REPLACE TABLE release_catalogue AS
         SELECT *
-        FROM read_csv_auto('{SILVER_FILE}')
+        FROM read_csv_auto(
+            '{silver_pattern}',
+            union_by_name = TRUE
+        )
         """
     )
 
@@ -86,13 +82,34 @@ def export_gold_metrics(connection):
         """
     )
 
+
 def load_lastfm_silver(connection):
+
+    profile_pattern = (
+        LASTFM_SILVER_PATH
+        / "*_artist_profile.csv"
+    )
+
+    snapshots_pattern = (
+        LASTFM_SILVER_PATH
+        / "*_audience_snapshots.csv"
+    )
+
+    tags_pattern = (
+        LASTFM_SILVER_PATH
+        / "*_tags.csv"
+    )
+
+    similar_pattern = (
+        LASTFM_SILVER_PATH
+        / "*_similar_artists.csv"
+    )
 
     connection.execute(
         f"""
         CREATE OR REPLACE TABLE lastfm_artist_profile AS
         SELECT *
-        FROM read_csv_auto('{LASTFM_PROFILE_FILE}')
+        FROM read_csv_auto('{profile_pattern}')
         """
     )
 
@@ -100,7 +117,7 @@ def load_lastfm_silver(connection):
         f"""
         CREATE OR REPLACE TABLE lastfm_audience_snapshots AS
         SELECT *
-        FROM read_csv_auto('{LASTFM_SNAPSHOTS_FILE}')
+        FROM read_csv_auto('{snapshots_pattern}')
         """
     )
 
@@ -108,7 +125,7 @@ def load_lastfm_silver(connection):
         f"""
         CREATE OR REPLACE TABLE lastfm_artist_tags AS
         SELECT *
-        FROM read_csv_auto('{LASTFM_TAGS_FILE}')
+        FROM read_csv_auto('{tags_pattern}')
         """
     )
 
@@ -116,7 +133,7 @@ def load_lastfm_silver(connection):
         f"""
         CREATE OR REPLACE TABLE lastfm_similar_artists AS
         SELECT *
-        FROM read_csv_auto('{LASTFM_SIMILAR_FILE}')
+        FROM read_csv_auto('{similar_pattern}')
         """
     )
 
@@ -150,10 +167,29 @@ if __name__ == "__main__":
         ).fetchone()[0]
     )
 
+    print("\nArtists loaded:")
+
+    artists = con.execute(
+        """
+        SELECT
+            artist_name,
+            COUNT(*) AS release_rows,
+            MIN(first_release_date) AS first_release,
+            MAX(first_release_date) AS latest_release
+        FROM release_catalogue
+        GROUP BY artist_name
+        ORDER BY artist_name
+        """
+    ).fetchdf()
+
+    print(
+        artists.to_string(index=False)
+    )
+
     build_gold_metrics(con)
 
     print(
-        "Gold rows created:",
+        "\nGold rows created:",
         con.execute(
             "SELECT COUNT(*) FROM gold_release_metrics"
         ).fetchone()[0]
@@ -188,7 +224,9 @@ if __name__ == "__main__":
         """
     ).fetchdf()
 
-    print(results.to_string(index=False))
+    print(
+        results.to_string(index=False)
+    )
 
     print("\nLatest Last.fm Gold metrics:")
 
@@ -201,7 +239,9 @@ if __name__ == "__main__":
         """
     ).fetchdf()
 
-    print(lastfm_results.to_string(index=False))
+    print(
+        lastfm_results.to_string(index=False)
+    )
 
     build_artist_insights(con)
 
@@ -217,6 +257,9 @@ if __name__ == "__main__":
     ).fetchdf()
 
     print("\nUnified Artist Insights:")
-    print(artist_results.to_string(index=False))
+
+    print(
+        artist_results.to_string(index=False)
+    )
 
     con.close()

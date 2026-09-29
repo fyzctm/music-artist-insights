@@ -3,6 +3,8 @@ CREATE OR REPLACE TABLE gold_artist_insights AS
 WITH release_summary AS (
 
     SELECT
+        artist_name,
+
         COUNT(*) AS total_releases,
 
         MIN(first_release_date) AS first_release_date,
@@ -22,6 +24,9 @@ WITH release_summary AS (
         ) AS eps
 
     FROM release_catalogue
+
+    GROUP BY
+        artist_name
 ),
 
 latest_audience AS (
@@ -67,4 +72,8 @@ SELECT
 
 FROM latest_audience a
 
-CROSS JOIN release_summary r;
+LEFT JOIN release_summary r
+    ON a.artist_name = r.artist_name
+
+ORDER BY
+    a.artist_name;

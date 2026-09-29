@@ -39,7 +39,10 @@ def load_bronze_data(artist_slug):
         return json.load(file)
 
 
-def transform_release_groups(release_groups):
+def transform_release_groups(
+    release_groups,
+    artist_name
+):
     """Transform raw release groups into a clean analytical catalogue."""
 
     records = []
@@ -50,6 +53,7 @@ def transform_release_groups(release_groups):
 
         records.append(
             {
+                "artist_name": artist_name,
                 "release_group_id": release.get("id"),
                 "title": release.get("title"),
                 "primary_type": release.get("primary-type"),
@@ -92,7 +96,6 @@ def transform_release_groups(release_groups):
 
     return df
 
-
 def save_silver_data(df, artist_slug):
     """Save the transformed catalogue to the Silver layer."""
 
@@ -132,8 +135,9 @@ def main():
     )
 
     catalogue = transform_release_groups(
-        release_groups
-    )
+    release_groups,
+    artist_name
+)
 
     save_silver_data(
         catalogue,
