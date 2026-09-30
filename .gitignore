@@ -220,3 +220,17 @@ __marimo__/
 .env
 .DS_Store
 music_artist_insights.duckdb
+
+# Generated data layers
+data/bronze/
+data/silver/
+
+# Local database
+*.duckdb
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

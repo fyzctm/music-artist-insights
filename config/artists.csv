@@ -1,0 +1,10 @@
+artist_name,context_role,context_scope
+Armin van Buuren,anchor,close_context
+Tiësto,crossover_context,broad_context
+Ferry Corsten,legacy_context,close_context
+Above & Beyond,close_context,close_context
+Hardwell,crossover_context,broad_context
+Maddix,close_context,close_context
+ARTBAT,adjacent_context,broad_context
+Ben Gold,close_context,close_context
+Hypaton,growth_context,candidate

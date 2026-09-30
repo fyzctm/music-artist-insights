@@ -1,4 +1,5 @@
 import json
+import re
 import sys
 import unicodedata
 from pathlib import Path
@@ -17,14 +18,17 @@ def make_artist_slug(artist_name):
     Examples:
     Armin van Buuren -> armin_van_buuren
     Tiësto -> tiesto
+    Above & Beyond -> above_beyond
     """
-    return (
-        unicodedata.normalize("NFKD", artist_name)
-        .encode("ascii", "ignore")
-        .decode("ascii")
-        .lower()
-        .replace(" ", "_")
-    )
+
+    normalized = unicodedata.normalize("NFKD", artist_name)
+    ascii_name = normalized.encode("ascii", "ignore").decode("ascii")
+    ascii_name = ascii_name.lower()
+
+    slug = re.sub(r"[^a-z0-9]+", "_", ascii_name)
+    slug = slug.strip("_")
+
+    return slug
 
 
 def load_bronze_data(artist_slug):

@@ -1,4 +1,5 @@
 import json
+import re
 import sys
 import time
 import unicodedata
@@ -21,17 +22,13 @@ def slugify_artist_name(name):
 
     normalized = unicodedata.normalize("NFKD", name)
     ascii_name = normalized.encode("ascii", "ignore").decode("ascii")
+    ascii_name = ascii_name.lower()
 
-    slug = (
-        ascii_name.lower()
-        .replace("&", "and")
-        .replace(" ", "_")
-    )
+    slug = re.sub(r"[^a-z0-9]+", "_", ascii_name)
+    slug = slug.strip("_")
 
-    return "".join(
-        char for char in slug
-        if char.isalnum() or char == "_"
-    )
+    return slug
+
 
 
 def load_artist_search(artist_name):
