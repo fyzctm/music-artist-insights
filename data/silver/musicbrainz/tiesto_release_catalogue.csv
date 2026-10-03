@@ -1,18 +1,18 @@
 artist_name,release_group_id,title,primary_type,first_release_date,is_compilation,is_remix,is_live,is_dj_mix
-Tiësto,3dfa9e68-81e3-3753-8387-6f236d19d60d,Lost Treasures: Isle of Ra,Album,1996-01-01,True,False,False,True
 Tiësto,aa28511c-5c62-32a9-ae04-67ff377311c7,Lost Treasures: Concerto for Sonic Circles,Album,1996-01-01,True,False,False,True
+Tiësto,3dfa9e68-81e3-3753-8387-6f236d19d60d,Lost Treasures: Isle of Ra,Album,1996-01-01,True,False,False,True
 Tiësto,dc8d1b36-3905-3d3f-97c3-2a09588c8671,The Tube,Single,1996-01-01,False,False,False,False
 Tiësto,6c37ffcb-294f-4a9a-bcfe-3277cd89c856,Space Age Inventions,EP,1997-01-01,False,False,False,False
 Tiësto,1af975e1-4120-343b-bd32-405956606b2f,Lost Treasures: Creatures of the Deep,Album,1997-01-01,True,False,False,True
 Tiësto,1cce9b50-dfef-3651-a80c-833a80ed70ea,Magik One: First Flight,Album,1997-09-15,True,False,True,True
-Tiësto,8c12e1a0-4606-37e2-a536-529020aaf3af,Global Clubbing: The Netherlands,Album,1998-01-01,True,False,False,True
 Tiësto,ddf8a444-cedf-3bd8-b17a-9086d8c14291,Space Age 2.0,Album,1998-01-01,True,False,False,True
+Tiësto,8c12e1a0-4606-37e2-a536-529020aaf3af,Global Clubbing: The Netherlands,Album,1998-01-01,True,False,False,True
 Tiësto,80d1ff5a-0760-3c2c-9844-ffc8f9b60204,Space Age 1.0,Album,1998-02-22,True,False,False,True
 Tiësto,bc64476c-d021-33c6-a732-b3467edfbaea,Magik Two: Story of the Fall,Album,1998-05-08,True,False,True,True
 Tiësto,191b47b4-0ce4-3375-a5e9-e28eb2651dee,Magik Three: Far From Earth,Album,1998-10-14,True,False,True,True
-Tiësto,82baa350-a159-3dda-b12f-a8469b451617,Live at Innercity - Amsterdam RAI,Album,1999-01-01,True,False,True,True
 Tiësto,592ba10f-bceb-3bca-bee8-7a4e4300ef98,Theme From Norefjell,Single,1999-01-01,False,False,False,False
 Tiësto,7c68052e-4e55-348c-81cf-630ab522d589,Sparkles,Single,1999-01-01,False,False,False,False
+Tiësto,82baa350-a159-3dda-b12f-a8469b451617,Live at Innercity - Amsterdam RAI,Album,1999-01-01,True,False,True,True
 Tiësto,23446b9e-eccf-339f-8491-5de0a54ee13c,Magik Four: A New Adventure,Album,1999-06-06,True,False,True,True
 Tiësto,67e44163-b714-3a2e-973a-1d997acd08b0,In Search of Sunrise,Album,1999-07-19,True,False,False,True
 Tiësto,e80d81f6-1c3b-4e6a-a484-efb1aa5161f3,Wonder Where You Are? / Wonder?,Single,2000-01-01,False,False,False,False
@@ -54,7 +54,6 @@ Tiësto,341282e5-62b5-3326-abb6-5788d1147f45,Lethal Industry / Flight 643 (Richa
 Tiësto,f3ba4ca4-3110-3f54-9d94-175b9db32e30,In the Dark,Single,2007-03-01,False,False,False,False
 Tiësto,fc6fd3c8-ba1a-383c-879a-16f1d067ce9a,Elements of Life,Album,2007-04-06,False,False,False,False
 Tiësto,000f4fef-c3c3-31b8-8bc2-69b302e8d407,Break My Fall,Single,2007-07-01,False,False,False,False
-Tiësto,5695373a-463d-489c-bec2-0c8eacf6cafd,Break My Fall,Single,2007-07-01,False,True,False,False
 Tiësto,4de45c29-6b67-3377-a1ea-58a0d8c6b7a7,In Search of Sunrise 6: Ibiza,Album,2007-09-07,True,False,False,True
 Tiësto,bb31a2c2-4d19-4448-9fd9-84854bb877a1,Adagio for Strings (Wrongun! remix),Single,2007-12-07,False,True,False,False
 Tiësto,59f159d6-938d-34c0-a3ea-9e1689c712e6,Sweet Things,Single,2007-12-10,False,False,False,False
@@ -72,9 +71,9 @@ Tiësto,5bc90896-bd80-4ee8-9462-3cae3cc898b4,Kaleidoscope,Single,2009-09-14,Fals
 Tiësto,1e75a02e-7fc4-4bae-aa6a-cc865e578c6e,Kaleidoscope,Album,2009-10-02,False,False,False,False
 Tiësto,f7904374-0ddd-4fa8-be28-25148f31c1a7,Escape Me,Single,2009-11-22,False,False,False,False
 Tiësto,97a05fe3-1668-438a-bb1d-abaf20473ee2,Kaleidoscope Extended Remixes,Album,2009-12-15,False,True,False,False
-Tiësto,d3bb050e-c842-4db5-abd4-13f3b650dd7e,Kaleidoscope Remixed (Unreleased Extended),Album,2010-01-01,False,True,False,False
-Tiësto,bd2c86fd-f52e-47cf-9090-0bdde75b0385,What's Next,EP,2010-01-01,True,False,False,False
 Tiësto,859661c7-9df0-4467-9b55-c4f484f3a810,Who Wants to Be Alone,Single,2010-01-01,False,False,False,False
+Tiësto,bd2c86fd-f52e-47cf-9090-0bdde75b0385,What's Next,EP,2010-01-01,True,False,False,False
+Tiësto,d3bb050e-c842-4db5-abd4-13f3b650dd7e,Kaleidoscope Remixed (Unreleased Extended),Album,2010-01-01,False,True,False,False
 Tiësto,94339ac6-2555-4192-b6e6-0a2dc7a73a70,Feel It,Single,2010-02-19,False,False,False,False
 Tiësto,0390f30a-485f-4678-b597-af0b3f3f95b0,C’mon,Single,2010-05-11,False,False,False,False
 Tiësto,679b1a0e-34da-49fd-a711-796e162df5d9,Magikal Journey: The Hits Collection 1998‒2008,Album,2010-05-17,True,False,False,False
@@ -87,8 +86,8 @@ Tiësto,a1ae5e55-41cb-4c38-a668-cfcc17557a82,Kaleidoscope Remixed,Album,2010-08-
 Tiësto,14a5fd86-1720-4459-a591-977cb1473078,Speed Rail,Single,2010-09-10,False,False,False,False
 Tiësto,b3624dbc-d7f9-4bf9-bb0d-257cfdf90bdf,Greatest Hits,Album,2011-01-01,True,False,False,False
 Tiësto,29d1ae4b-f346-48bf-9222-2d8c83d3bbd0,Only You,Single,2011-02-07,False,False,False,False
-Tiësto,2868b6d6-1028-46ff-9732-f0923702ccd1,Zero 76,Single,2011-02-07,False,False,False,False
 Tiësto,12b53fde-3032-428a-be0a-5abc8675a744,C’mon (Catch ’em by Surprise),Single,2011-02-07,False,False,False,False
+Tiësto,2868b6d6-1028-46ff-9732-f0923702ccd1,Zero 76,Single,2011-02-07,False,False,False,False
 Tiësto,11ec914c-64a7-4c72-a710-37afbf5f8b4a,Bleckentrommel,Single,2011-02-14,False,False,False,False
 Tiësto,269d1432-c749-4466-93aa-784a3237e094,Young Lions,Single,2011-03-03,False,False,False,False
 Tiësto,b6f27c59-96f6-451e-9f0e-156266a740af,Beautiful World,Single,2011-03-21,False,False,False,False
@@ -107,9 +106,9 @@ Tiësto,202b4b95-64a4-4d6c-98cb-508021aa2dc7,People of the Night,Single,2012-08-
 Tiësto,a51f4658-2f38-4c2b-a243-274d57efc4e1,Pair of Dice,Single,2012-10-08,False,False,False,False
 Tiësto,2b644c93-ddd0-4643-824a-0d1d38100a2b,Tiësto In Concert - Director's Cut,Album,2012-12-07,True,False,False,False
 Tiësto,ff721633-89e1-4067-88bb-852252d13341,Lethal Industry (Sterbinszky & Coddie remix),Single,2012-12-24,False,True,False,False
-Tiësto,56fe4f75-3e5a-48c0-8321-0f513e29a829,Knock You Out,Single,2013-01-01,False,False,False,False
 Tiësto,a1b8f561-2aaf-41e7-895c-926d28cabbcd,Century (Tiësto & Moska remix),Single,2013-01-01,False,True,False,False
 Tiësto,9b20bcae-67f9-4c49-b5a2-e1c99d6db25c,Love and Run,Single,2013-01-01,False,False,False,False
+Tiësto,56fe4f75-3e5a-48c0-8321-0f513e29a829,Knock You Out,Single,2013-01-01,False,False,False,False
 Tiësto,0d0f9270-0214-448e-81e2-ebf600c6419e,I Am Strong,Single,2013-01-01,False,False,False,False
 Tiësto,7442ed76-3310-4d0b-9ae5-34d88766bf35,Love Comes Again (remixes),Single,2013-02-04,False,True,False,False
 Tiësto,1e46d5a0-048d-4ab5-94ab-d1d133285261,Make Some Noise Remixes,Single,2013-02-26,False,True,False,False
@@ -129,8 +128,8 @@ Tiësto,580271fc-c2a7-4dac-bfaf-ffc1f070fe93,Love Comes Again,Single,2013-11-04,
 Tiësto,36bf0e17-c532-4848-a726-f87510b3865a,Out of Control,Single,2013-11-25,False,False,False,False
 Tiësto,93a1c667-47af-467c-b26b-6a8afe92a94f,Red Lights,Single,2013-12-17,False,False,False,False
 Tiësto,7e0203c3-878b-4459-9f00-79384580f3c4,Red Lights (Hungry Man Fun Man remix),Single,2013-12-17,False,True,False,False
-Tiësto,add82aef-f36f-4776-ab5e-c29f61f8fc73,Flight 643 (Fei-Fei's Feided Trap 643 remix),Single,2014-01-01,False,True,False,False
 Tiësto,a1853cf8-bcbd-4d7d-a11d-d522e07840a1,Escape Me (Zaken remix),Single,2014-01-01,False,True,False,False
+Tiësto,add82aef-f36f-4776-ab5e-c29f61f8fc73,Flight 643 (Fei-Fei's Feided Trap 643 remix),Single,2014-01-01,False,True,False,False
 Tiësto,233d7b61-11d1-44da-b07f-fad52e4f2659,Red Lights (remixes),Single,2014-02-23,False,True,False,False
 Tiësto,f42b1915-e4ec-410b-a34f-99fa0b479758,Drop It Like This,Single,2014-03-17,False,False,False,False
 Tiësto,d019e2fa-2699-49b9-bd79-74296fd70031,Wasted,Single,2014-04-22,False,False,False,False
@@ -164,14 +163,13 @@ Tiësto,b61e6c71-4909-4ce5-81af-e7bf947289ac,Summer Nights,Single,2016-06-17,Fal
 Tiësto,35a7daac-31bf-490e-a990-a00d3ef0dd87,Infected,Single,2016-07-15,False,False,False,False
 Tiësto,aba4017a-7bf8-4852-b3d1-48428becc07f,I Want You,Single,2016-08-05,False,False,False,False
 Tiësto,dd3383a3-4294-438c-877d-aeb6518c7464,Summer Nights (The Him remix),Single,2016-08-19,False,True,False,False
-Tiësto,1d9cad60-efc7-4c75-9744-152519be0fa7,Your Love,Single,2016-08-26,False,False,False,False
 Tiësto,58f68884-0490-4573-9e18-d9aecbd13b8e,Summer Nights (Tiësto’s Deep House remix),Single,2016-08-26,False,True,False,False
+Tiësto,1d9cad60-efc7-4c75-9744-152519be0fa7,Your Love,Single,2016-08-26,False,False,False,False
 Tiësto,1665ec7d-542f-43da-9a54-7ea78ef2c6a7,C'mon (Maestro Harrell 2016 remix),Single,2016-12-16,False,True,False,False
 Tiësto,a4847ad7-94ad-4c61-a660-1f093a5db9df,AFTR:HRS: Mixed by Tiesto,Album,2016-12-23,True,False,False,True
 Tiësto,d2b84109-f74b-4413-bcc7-61925c7f60c8,Ten Seconds Before Sunrise (Moska remix),Single,2017-01-01,False,True,False,False
 Tiësto,d70c3927-95f3-4686-9c9f-7611854ac29a,On My Way,Single,2017-01-13,False,False,False,False
 Tiësto,f6d6adc3-71e8-4900-9037-aa9813a4ffac,On My Way (Danny Avila remix),Single,2017-03-24,False,True,False,False
-Tiësto,d5509f87-42a5-4272-885e-5172cc28ab1c,BOOM,Single,2017-04-24,False,False,False,False
 Tiësto,373183cb-ed59-41f3-85d4-e73a5bfae1ee,BOOM,Single,2017-04-24,False,False,False,False
 Tiësto,1ab0a33f-21d0-457c-aa4a-5d9a35e96f8c,Harder,Single,2017-06-16,False,False,False,False
 Tiësto,6feed958-36e7-42a2-b828-20cbd2e0ddea,Scream,Single,2017-09-08,False,False,False,False
@@ -196,10 +194,10 @@ Tiësto,6205920b-f08b-4775-adf7-53b10a052562,"Jackie Chan (remixes, Vol. 1)",Sin
 Tiësto,ef87f6ed-49f0-4a4d-be52-acafa43b5cef,"Jackie Chan (remixes, Vol. 2)",Single,2018-10-05,False,True,False,False
 Tiësto,6f34313d-a0e1-49a2-9d55-e44c02fc7479,Jackie Chan (Laidback Luke remix),Single,2018-10-19,False,True,False,False
 Tiësto,4d24c6e5-30d6-4b98-933f-0aa2964f2b50,Grapevine,Single,2018-10-26,False,False,False,False
+Tiësto,8a469d41-a8eb-4a65-9601-c0aba459ace7,Trouble,Single,2019-01-01,False,False,False,False
+Tiësto,dedeefe6-ef3e-4623-9145-e16a54dc4ea7,Diamonds,Single,2019-01-01,False,False,False,False
 Tiësto,24f54470-c1cd-4653-9cb9-e370bfb01bc9,Party Time,Single,2019-01-01,False,False,False,False
 Tiësto,8d29bc6e-8d34-4469-a47c-f0bf07268999,Lose Control,Single,2019-01-01,False,False,False,False
-Tiësto,dedeefe6-ef3e-4623-9145-e16a54dc4ea7,Diamonds,Single,2019-01-01,False,False,False,False
-Tiësto,8a469d41-a8eb-4a65-9601-c0aba459ace7,Trouble,Single,2019-01-01,False,False,False,False
 Tiësto,ae443fa8-c33a-4f77-a047-5f84013fea8b,Halfway There,Single,2019-03-15,False,False,False,False
 Tiësto,377ff712-2a9a-426c-ba26-da0bf9d37734,Can You Feel It,Single,2019-03-22,False,False,False,False
 Tiësto,aa338bc8-9781-4e1a-a93a-8e1e02b0d682,Can't Get Enough,Single,2019-03-29,False,False,False,False
@@ -234,11 +232,11 @@ Tiësto,c9acb09b-f776-4805-8e6c-e4a80c13137e,Don’t Be Shy,Single,2021-08-13,Fa
 Tiësto,25a55adf-716c-4e93-bada-456ff6f45630,Don't Be Shy (DJ Dark & Mentol remix),Single,2021-09-15,False,True,False,False
 Tiësto,d77b5486-70ef-4bc2-890b-839df318f48c,Pepas (Tiësto remix),Single,2021-09-29,False,True,False,False
 Tiësto,8e9052da-d6f5-420d-b759-bbb7c7e599d7,Elements of Life (RAM's Fusion remix),Single,2021-10-08,False,False,False,False
-Tiësto,eadc9e9b-897d-4372-956f-e39e71e6184a,I’ll Take You High,Single,2021-10-14,False,False,False,False
-Tiësto,eeb1f869-9e33-4816-8f36-bb948a9478f8,Clickbait,Single,2021-10-14,False,False,False,False
+Tiësto,56964f6f-b511-4faf-b724-87e64ac4cf5e,Oohla Oohla,Single,2021-10-14,False,False,False,False
 Tiësto,2efa9c73-c916-481a-87c1-9518ca0e37e6,Money,Single,2021-10-14,False,False,False,False
 Tiësto,1126b243-6561-4448-af2e-32caeed183f0,Be Something,Single,2021-10-14,False,False,False,False
-Tiësto,56964f6f-b511-4faf-b724-87e64ac4cf5e,Oohla Oohla,Single,2021-10-14,False,False,False,False
+Tiësto,eeb1f869-9e33-4816-8f36-bb948a9478f8,Clickbait,Single,2021-10-14,False,False,False,False
+Tiësto,eadc9e9b-897d-4372-956f-e39e71e6184a,I’ll Take You High,Single,2021-10-14,False,False,False,False
 Tiësto,6f870264-0f8a-4fc2-a6c7-3fb4b4ae463b,Together Again,EP,2021-10-15,False,False,False,False
 Tiësto,c14c531e-1dbb-422e-85fc-c56143ba30af,The Motto,Single,2021-11-04,False,False,False,False
 Tiësto,f21d38ae-aaa3-4403-a952-02511661da7f,The Motto (Robin Schulz remix),Single,2022-02-11,False,True,False,False
@@ -288,7 +286,6 @@ Tiësto,b1ece9fb-64ac-4463-b8cb-005c75cb095c,Mockingbird,Single,2024-05-03,False
 Tiësto,95707b6b-af53-49b9-96c6-a3a3ce29056f,My City,Single,2024-05-15,False,False,False,False
 Tiësto,61ac74af-1326-4e2b-9afd-2b8ceb772758,Click Click Click,Single,2024-05-31,False,False,False,False
 Tiësto,875876fb-90d1-40e5-9531-f1208bff234f,Atomic City (Tiësto remix),Single,2024-06-21,False,True,False,False
-Tiësto,f439d7ee-e585-4969-93c8-49ab3391f3c2,ZENLESS,Single,2024-07-02,False,False,False,False
 Tiësto,6864192c-1af9-4bcd-b77e-4a55423b7917,ZENLESS,Single,2024-07-02,False,False,False,False
 Tiësto,c4a4b43e-595a-4ec5-9fe2-7104e0805192,Hot Honey,Single,2024-07-25,False,False,False,False
 Tiësto,df5fc2e9-2a40-4761-b720-d874d8a6cc07,KARMA (Tiësto Version),Single,2024-08-09,False,False,False,False
@@ -301,8 +298,8 @@ Tiësto,915d0c10-e7bc-4b32-8055-0946cbabd1ab,Free Your Mind,Single,2024-12-13,Fa
 Tiësto,a1dcd3c2-ce77-4eed-9a81-23c77b595768,Una Velita,Single,2024-12-20,False,False,False,False
 Tiësto,f899ed5a-899d-4270-a4f5-15c303ebbc31,Lethal Industry (Rose Ringed remix),Single,2025-01-03,False,True,False,False
 Tiësto,e2d2b6a4-1be2-4d3f-a0fb-bc8804a217eb,I Follow Rivers,Single,2025-01-30,False,False,False,False
-Tiësto,8c75d9b1-5053-4a73-91b3-edba2a81896b,Prismatic: Pack One (extended),EP,2025-01-31,False,True,False,False
 Tiësto,ed609104-b676-465e-9181-81d55f5324c6,Prismatic: Pack One,EP,2025-01-31,False,False,False,False
+Tiësto,8c75d9b1-5053-4a73-91b3-edba2a81896b,Prismatic: Pack One (extended),EP,2025-01-31,False,True,False,False
 Tiësto,de6975b7-adaa-479f-9474-93dcd95e28db,Flex,Single,2025-02-28,False,False,False,False
 Tiësto,9007c1b7-5dd7-49a2-bf8f-3018a5166199,All Right,Single,2025-03-14,False,False,False,False
 Tiësto,c7284ad2-5be2-4ab2-ad96-e39290adc4de,Shadows,Single,2025-03-28,False,False,False,False

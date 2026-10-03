@@ -1,23 +1,23 @@
 artist_name,release_group_id,title,primary_type,first_release_date,is_compilation,is_remix,is_live,is_dj_mix
-Armin van Buuren,34e1f6bf-6c0c-4456-92e5-dadb8fd36680,Check Out Your Mind,Single,1996-01-01,False,False,False,False
 Armin van Buuren,d113ef0a-1665-43d3-8a71-1cab784c24a8,Push,Single,1996-01-01,False,True,False,False
+Armin van Buuren,34e1f6bf-6c0c-4456-92e5-dadb8fd36680,Check Out Your Mind,Single,1996-01-01,False,False,False,False
 Armin van Buuren,b13a95a4-724a-3d3f-bcec-c771bffaf61c,Blue Fear,Single,1996-03-10,False,False,False,False
 Armin van Buuren,05efc241-f1e7-4249-b928-0114de8df32d,Free,Single,1999-01-01,False,False,False,False
-Armin van Buuren,34cdfcae-41d9-483b-955a-074bbf0c6947,One,EP,1999-01-01,False,False,False,False
 Armin van Buuren,3f80c180-f72e-41e0-9321-15fe36d511fd,Virgo (Remixes),Single,1999-01-01,False,True,False,False
 Armin van Buuren,01e47b6a-71a5-4d1f-be13-3c3e7e4cc853,This Is Not the United Sampler,Album,1999-01-01,True,False,False,True
+Armin van Buuren,34cdfcae-41d9-483b-955a-074bbf0c6947,One,EP,1999-01-01,False,False,False,False
 Armin van Buuren,70ecb5ab-3a90-4ab0-8bf7-b80af23fc99b,Lost Soul Society,EP,1999-01-01,False,False,False,False
 Armin van Buuren,a3f08d41-c94f-46aa-85dc-7c71e972ac6b,Virgo (The Remixes),Single,1999-04-17,False,True,False,False
 Armin van Buuren,92307739-92c7-33bc-ae37-6f6bddf71b37,Communication,Single,1999-06-01,False,False,False,False
 Armin van Buuren,9801259a-6cd5-3128-b3bd-f0651e30a319,Boundaries of Imagination,Album,1999-12-15,True,False,False,True
-Armin van Buuren,3c13fbec-d606-4d9d-baf6-ada2702c35e1,"See Me, Feel Me",Single,2000-01-01,False,False,False,False
 Armin van Buuren,e80d81f6-1c3b-4e6a-a484-efb1aa5161f3,Wonder Where You Are? / Wonder?,Single,2000-01-01,False,False,False,False
+Armin van Buuren,3c13fbec-d606-4d9d-baf6-ada2702c35e1,"See Me, Feel Me",Single,2000-01-01,False,False,False,False
 Armin van Buuren,d13e94f4-bee6-37e7-a76f-afc5cb043298,TranceMatch,Album,2000-04-05,True,False,False,True
 Armin van Buuren,445e091e-7e16-49af-8b49-d63aa3122a17,"Communication, Part 2",Single,2000-06-10,False,False,False,False
 Armin van Buuren,eadf158e-2a3f-3804-a265-d311b67b9f8f,Armin van Buuren 001: A State of Trance,Album,2000-07-17,True,False,False,True
-Armin van Buuren,c811db12-d20f-39cb-a74f-7e516e9e10d2,Exhale,Single,2001-01-01,False,False,False,False
 Armin van Buuren,c3304549-05ea-3d11-847f-aa03d74ccc6d,Armin van Buuren 003: In Motion,Album,2001-01-01,True,False,False,True
 Armin van Buuren,b9f3b295-d65d-3edb-ab27-63068e853bc8,Armin van Buuren 002: Basic Instinct,Album,2001-01-01,True,False,False,True
+Armin van Buuren,c811db12-d20f-39cb-a74f-7e516e9e10d2,Exhale,Single,2001-01-01,False,False,False,False
 Armin van Buuren,4cab5bdf-3995-3901-95c5-7364ee3555ae,Touch Me,Single,2001-03-07,False,False,False,False
 Armin van Buuren,47961cca-3423-44a6-acec-d36b27a21566,The Sound of Goodbye,Single,2001-08-01,False,False,False,False
 Armin van Buuren,1420d652-5e00-44f7-9b45-3f25e2cb2056,Janeiro (Armin van Buuren Remix),Single,2002-01-01,False,True,False,False
@@ -25,8 +25,8 @@ Armin van Buuren,33d62d81-b0b5-3273-89f0-b52adaad39c9,Armin van Buuren 004: Tran
 Armin van Buuren,917c16e0-cebc-3b5e-831a-89c20ad9d3f6,Yet Another Day,Single,2002-02-03,False,False,False,False
 Armin van Buuren,ca3854a9-8422-3def-a1d0-808a8c73f29c,Sunburn (Walk Through the Fire),Single,2003-01-01,False,False,False,False
 Armin van Buuren,04bdda4a-285f-4e59-8ffa-612aa16c0da6,Sunburn,Single,2003-02-17,False,False,False,False
-Armin van Buuren,b4a2060a-aa07-3d86-a9f2-eb7610555d7d,76,Album,2003-06-30,False,False,False,False
 Armin van Buuren,a36c36b2-340a-45ab-a8cd-e387aa01a9c5,76 Album Sampler - Part 1 of 3,EP,2003-06-30,False,False,False,False
+Armin van Buuren,b4a2060a-aa07-3d86-a9f2-eb7610555d7d,76,Album,2003-06-30,False,False,False,False
 Armin van Buuren,eb7cbad5-660f-4561-b9ff-53a80fc29bc9,76 Album Sampler - Part 2 of 3,EP,2003-08-11,False,False,False,False
 Armin van Buuren,d8d9693d-299a-390b-ad8b-bbedbd9e965e,Burned With Desire,EP,2003-11-01,False,False,False,False
 Armin van Buuren,7b9e05d0-fedd-3643-8902-ea2a1ddc7a2a,"Universal Religion, Chapter One",Album,2003-11-03,True,False,True,True
@@ -44,8 +44,8 @@ Armin van Buuren,ca660f87-876d-3195-ab81-5486a339cbfe,A State of Trance 2005,Alb
 Armin van Buuren,49a9ddd3-93de-33a8-bf33-6fb7e515a879,Shivers / Serenity,Single,2005-06-20,False,False,False,False
 Armin van Buuren,616665bd-4156-37b7-9c6d-1e310195ff4c,Serenity: Sensation White Anthem 2005,Single,2005-06-20,False,False,False,False
 Armin van Buuren,bc5458fd-aa61-4b18-a97f-e9f92c539165,Hymne (De Postbank SAILtrack 2005),EP,2005-08-01,False,False,False,False
-Armin van Buuren,1c970471-4d57-3c2b-a71d-2ec51ce93991,Shivers,Album,2005-08-08,False,False,False,False
 Armin van Buuren,4562372c-97eb-4c8a-89c5-ff67a564bdd2,Shivers (Album Sampler 03),EP,2005-08-08,False,False,False,False
+Armin van Buuren,1c970471-4d57-3c2b-a71d-2ec51ce93991,Shivers,Album,2005-08-08,False,False,False,False
 Armin van Buuren,58c8c42b-ddb1-32e1-9634-e2a258f7fcd3,Who Is Watching,Single,2005-12-05,False,False,False,False
 Armin van Buuren,74754da2-1852-425b-9f07-6c87ad3abf5a,Who Is Watching (Part 1 – The House Mixes),EP,2005-12-05,False,False,False,False
 Armin van Buuren,efc26085-a52d-3e74-b2c9-901f78c3370b,A State of Trance Year Mix 2005,Album,2005-12-23,True,False,False,True
@@ -90,8 +90,8 @@ Armin van Buuren,188e11ea-bd13-459d-8f9d-4bb6cf570494,"A State of Trance 2009: T
 Armin van Buuren,338905c9-9512-49b7-afb3-da777570efd7,"Universal Religion, Chapter 4",Album,2009-10-04,True,False,True,True
 Armin van Buuren,e5bfa15a-40ce-47f1-9ba4-630738ebebe2,Broken Tonight,Single,2009-10-26,False,False,False,False
 Armin van Buuren,dfa97add-a6fd-4d75-948d-9e08ac546160,Broken Tonight (remixes),Single,2009-11-09,False,True,False,False
-Armin van Buuren,dfe6458c-a3ad-4485-aad6-7e4f2925d6ee,The Music Videos: 1997–2009,Album,2009-11-30,True,False,False,False
 Armin van Buuren,dd386cc1-eeb5-4dd6-961f-8c5f83b2bda0,30 Tunes Collected,Album,2009-11-30,True,False,False,False
+Armin van Buuren,dfe6458c-a3ad-4485-aad6-7e4f2925d6ee,The Music Videos: 1997–2009,Album,2009-11-30,True,False,False,False
 Armin van Buuren,7222855a-80e3-45bc-9e91-f0321e9556ec,A State of Trance Year Mix 2009,Album,2009-12-18,True,False,False,True
 Armin van Buuren,46ba55d4-66e9-4d9e-a801-b89ed2f91788,A State of Trance 2010,Album,2010-04-02,True,False,False,True
 Armin van Buuren,3a0d017b-99c1-4da6-8c24-3bedc737d600,The Music From A State of Trance 450,Album,2010-04-14,True,False,False,False
@@ -107,8 +107,8 @@ Armin van Buuren,d1a823de-e816-4bc0-9f2d-d292fa72c262,A State of Trance Year Mix
 Armin van Buuren,0dc5b535-38ba-402d-a35b-45cfe576dd54,Armin Only “Mirage”,EP,2010-12-25,False,False,False,True
 Armin van Buuren,9ed2e2b8-4bec-4a01-99ec-d307138f3129,Greatest Hits,Album,2011-01-01,True,False,False,False
 Armin van Buuren,8ffa8c0e-ee4e-45bd-a3fa-6c228684d321,A State of Trance Year Mix 2011,Album,2011-01-05,True,False,False,True
-Armin van Buuren,95eccd78-2ab2-49b3-a705-c689cf9ecd17,A State of Trance Radio Top 15 – February 2011 (Including Classic bonus Track),Album,2011-02-25,True,False,False,False
 Armin van Buuren,07ced5d8-4a82-4282-8639-28931cfb5063,Drowning,Single,2011-02-25,False,False,False,False
+Armin van Buuren,95eccd78-2ab2-49b3-a705-c689cf9ecd17,A State of Trance Radio Top 15 – February 2011 (Including Classic bonus Track),Album,2011-02-25,True,False,False,False
 Armin van Buuren,d9dc0c63-a9ed-47f1-a7d2-70ae91cbe140,Status Excessu D (The Official A State of Trance 500 Anthem),Single,2011-03-16,False,False,False,False
 Armin van Buuren,76dc7845-2667-4081-ab2f-4ff39de120a0,A State of Trance 2011,Album,2011-03-18,True,False,False,True
 Armin van Buuren,892a4e58-5818-47be-8d58-d4a7f2351e7a,Armin Only - Mirage: The Music,Album,2011-03-29,True,False,False,False
@@ -141,8 +141,8 @@ Armin van Buuren,751c545d-f123-44ba-b0a6-a6382a6d9ded,A State of Trance Radio To
 Armin van Buuren,987b9b65-4411-44f3-807a-fc5ce2127b87,"A State of Trance 2012 – Unmixed, Vol. 1",Album,2012-04-20,True,False,False,False
 Armin van Buuren,2ee26d45-7487-4c8c-8f1e-5ba7a506417c,We Are Here to Make Some Noise,Single,2012-05-09,False,False,False,False
 Armin van Buuren,0547b003-0375-46f3-a5f7-34c31a27e8fd,A State of Trance Radio Top 20: May 2012,Album,2012-05-11,True,False,False,False
-Armin van Buuren,f071b743-1af4-4dc9-a5f0-b4d7f51a6f9a,A State of Trance Radio Top 20 – June 2012 (Including Classic Bonus Track),Album,2012-06-08,True,False,False,False
 Armin van Buuren,479de9bd-a56a-4465-a658-06041dfdb81a,We Are Here to Make Some Noise (remixes),Single,2012-06-08,False,True,False,False
+Armin van Buuren,f071b743-1af4-4dc9-a5f0-b4d7f51a6f9a,A State of Trance Radio Top 20 – June 2012 (Including Classic Bonus Track),Album,2012-06-08,True,False,False,False
 Armin van Buuren,56c6a873-82eb-4c74-8345-fb43356c1328,"A State of Trance 2012 - Unmixed, Vol. 2",Album,2012-06-15,True,False,False,False
 Armin van Buuren,58fd81a2-7f80-4463-8af7-f15a1d9bb821,Suddenly Summer (the remixes),Single,2012-06-18,False,True,False,False
 Armin van Buuren,a2f6d929-91ee-4fb5-bb80-ca6b308ebaa3,A State of Trance Radio Top 20 – July 2012 (Including Classic Bonus Track),Album,2012-07-13,True,False,False,False
@@ -187,8 +187,8 @@ Armin van Buuren,e3bfa732-1892-41df-971b-4fcca80326ed,Save My Night (Blasterjaxx
 Armin van Buuren,1ae505a1-79e7-4a4e-90a5-1d7159052cfa,Alone,Single,2014-03-07,False,False,False,False
 Armin van Buuren,2e0f6075-8664-4448-a9ec-46a14628b742,Ping Pong,Single,2014-03-24,False,False,False,False
 Armin van Buuren,4416a191-682c-486e-a8ad-4191b5fe6dba,A State of Trance 2014,Album,2014-03-28,True,False,False,True
-Armin van Buuren,d8ccf4ad-bb13-49e8-b13a-c1810a175ab8,EIFORYA,Single,2014-04-14,False,False,False,False
 Armin van Buuren,42669518-3893-4081-b78b-a26f7b4de72c,Save My Night (remixes),Single,2014-04-14,False,True,False,False
+Armin van Buuren,d8ccf4ad-bb13-49e8-b13a-c1810a175ab8,EIFORYA,Single,2014-04-14,False,False,False,False
 Armin van Buuren,3cc8d077-4412-4aeb-969b-48e5a6f4eff6,"A State of Trance 650 (Armin van Buuren – Warm Up Sets) [Moscow, Yekaterinburg, Utrecht, Buenos Aires & Jakarta]",Album,2014-05-02,True,False,False,False
 Armin van Buuren,769aefda-69a5-45dc-a6f2-feac09ee85b9,"A State of Trance 2014 – Unmixed Extendeds, Vol. 2",Album,2014-07-18,True,False,False,False
 Armin van Buuren,a814ff92-ff1e-4951-b22c-f0e8aa96cc34,A State of Trance Radio Top 20: August 2014,Album,2014-08-15,True,False,False,False
@@ -203,20 +203,20 @@ Armin van Buuren,2c66094f-a30c-4fa8-bcce-d101739ee917,Armin Only – Intense “
 Armin van Buuren,70295398-399a-4b7c-89a4-3abb65caa39b,Communication (Paul Oakenfold Full on Fluoro mix),Single,2014-12-17,False,True,False,False
 Armin van Buuren,d239f5e6-6263-4a56-a62c-3457f710e924,A State of Trance Year Mix 2014,Album,2014-12-19,True,False,False,True
 Armin van Buuren,df702853-f6a9-4ade-9bc8-5005a32c6be1,Hystereo (Wach remix),Single,2014-12-22,False,True,False,False
-Armin van Buuren,20b73a88-7c4e-42df-87f9-8d1aace31762,A State of Trance Radio Top 20: August / September / October 2015 (Including Classic bonus Track),Album,2015-01-01,True,False,False,False
 Armin van Buuren,8dbc54a8-04a7-45f7-840e-f83a848b749f,Embargo,Single,2015-01-01,False,False,False,False
+Armin van Buuren,20b73a88-7c4e-42df-87f9-8d1aace31762,A State of Trance Radio Top 20: August / September / October 2015 (Including Classic bonus Track),Album,2015-01-01,True,False,False,False
 Armin van Buuren,7c9b9ca2-5244-4c2d-acfe-fa19a7722787,Hands to Heaven,Single,2015-01-01,False,False,False,False
 Armin van Buuren,faa6ff03-5e37-43ba-bb60-b8d73ffa53e9,Strong Ones (The Remixes Part II),Single,2015-01-01,False,True,False,False
-Armin van Buuren,cd84b83d-c5fe-47ab-9984-7c7fe0791508,Together (In A State of Trance) [A State Of Trance Festival Anthem],Album,2015-01-09,False,False,False,False
 Armin van Buuren,b3138057-71c0-496d-bc2f-40186597bf60,Together (In a State of Trance) (ASOT Festival Anthem),Single,2015-01-09,False,False,False,False
+Armin van Buuren,cd84b83d-c5fe-47ab-9984-7c7fe0791508,Together (In A State of Trance) [A State Of Trance Festival Anthem],Album,2015-01-09,False,False,False,False
 Armin van Buuren,515accde-17ab-4afb-9503-821ea1afb63e,Safe Inside You,Single,2015-02-13,False,False,False,False
 Armin van Buuren,deb20ccd-76ad-47e5-8a5e-c93417fb1e2e,In and Out of Love (Lost Frequencies radio edit),Single,2015-03-16,False,True,False,False
 Armin van Buuren,bec7248d-dee2-4ada-85f5-b329c2c2c724,Panta Rhei,Single,2015-03-23,False,False,False,False
 Armin van Buuren,83550add-00fc-4740-b6a5-ed5f6f503019,A State of Trance 2015,Album,2015-03-27,True,False,False,True
 Armin van Buuren,36f41cdf-ab08-44bb-8b5f-9b1b952f300b,Another You,Single,2015-05-08,False,False,False,False
 Armin van Buuren,f32f4949-d820-4568-8ce3-2193b02300b8,Another You (Mark Sixma remix),Single,2015-05-08,False,True,False,False
-Armin van Buuren,0896bf69-1af1-48e2-8089-7d460e26e113,Another You,EP,2015-05-09,False,False,False,False
 Armin van Buuren,05311e3f-b743-4924-acf9-c92ad66320c3,Another You (Headhunterz remix),Single,2015-05-09,False,True,False,False
+Armin van Buuren,0896bf69-1af1-48e2-8089-7d460e26e113,Another You,EP,2015-05-09,False,False,False,False
 Armin van Buuren,4139f262-ba1d-44e5-8347-a171fb6a73ff,Stardust,Single,2015-07-31,False,False,False,False
 Armin van Buuren,1dc7c932-db5a-4ea0-b1b1-b6e7f35ad7aa,A State of Trance: Ibiza 2015 at Ushuaïa Ibiza Beach Hotel,Album,2015-08-20,True,False,False,True
 Armin van Buuren,c2c50c4d-965f-4ff6-9205-8d3d8a702110,Off the Hook,Single,2015-09-14,False,False,False,False
@@ -227,9 +227,9 @@ Armin van Buuren,aca053cd-6f99-49c7-bf16-f0ae9ac31644,Armin van Buuren Presents 
 Armin van Buuren,96ffb2be-ee02-4e44-877b-0d0514e93d74,A State of Trance Year Mix 2015,Album,2015-12-18,True,False,False,True
 Armin van Buuren,23637c9b-10fe-4a6a-97db-c0478ad5e44a,If It Ain’t Dutch,Single,2015-12-21,False,False,False,False
 Armin van Buuren,69ea1407-15ca-4bb3-8ece-228c13acd150,Pull Over,Single,2016-01-01,False,False,False,False
-Armin van Buuren,f0ff7d43-5a16-4414-8947-d728013cfaed,Make It Right,Single,2016-01-01,False,False,False,False
 Armin van Buuren,426491ff-52a5-449c-afc1-9d38a859fa17,The Race,Single,2016-01-01,False,False,False,False
 Armin van Buuren,c122cf74-cfce-4ce0-9da3-960aaeae6217,Embrace Remix EP #4,EP,2016-01-01,False,True,False,False
+Armin van Buuren,f0ff7d43-5a16-4414-8947-d728013cfaed,Make It Right,Single,2016-01-01,False,False,False,False
 Armin van Buuren,1adfc7f6-6d16-409f-b3f9-954b2d0688d3,Clear Blue Moon (Will Rees remix),Single,2016-01-08,False,True,False,False
 Armin van Buuren,27c563b2-1d3e-4a1e-b25f-8ab3259a7c37,Heading Up High,Single,2016-02-05,False,False,False,False
 Armin van Buuren,3d9b8cd4-3a59-4a39-881a-f31e41309cf7,A State of Trance Radio Top 20 - February 2016 (Including Classic Bonus Track),Album,2016-02-19,True,False,False,False
@@ -280,8 +280,8 @@ Armin van Buuren,b431521f-9850-4b09-b78e-1aa788aacfcb,A State of Trance: Future 
 Armin van Buuren,a0952251-a2a7-431c-b6c0-36c534aba522,Christmas Days,Single,2017-12-09,False,False,False,False
 Armin van Buuren,c44a5b71-6470-4120-bb71-11d343f7e970,A State Of Trance Top 20 - January 2018 (Selected by Armin van Buuren),Album,2018-01-12,True,False,False,False
 Armin van Buuren,14644b13-62d3-4d1f-9384-deb8842a501d,"Sex, Love & Water",Single,2018-02-02,False,False,False,False
-Armin van Buuren,5ed75fda-d34d-48d8-90df-d909a3d220b8,A State of Trance 850,Album,2018-02-16,True,False,False,True
 Armin van Buuren,49b61054-419a-402e-a793-e604bdb5846c,"Sex, Love & Water (club mix)",Single,2018-02-16,False,True,False,False
+Armin van Buuren,5ed75fda-d34d-48d8-90df-d909a3d220b8,A State of Trance 850,Album,2018-02-16,True,False,False,True
 Armin van Buuren,f45a5aea-01fa-43e9-bbff-b95ac02c7336,"Sex, Love & Water (Loud Luxury remix)",Single,2018-03-16,False,True,False,False
 Armin van Buuren,f321140b-eb53-4068-89af-9c0543082186,The Last Dancer,Single,2018-03-22,False,False,False,False
 Armin van Buuren,7dedaed4-7db1-4da7-9256-4bb0273e6918,Live at Ultra Music Festival Miami 2018 (Highlights) (A State of Trance Stage),Album,2018-04-06,False,False,True,True
@@ -292,8 +292,8 @@ Armin van Buuren,063e0c9e-ee61-42b8-b106-3193f6b47bf6,Blah Blah Blah,Single,2018
 Armin van Buuren,48749776-8691-4da9-a912-7259a5883d4c,Blah Blah Blah (Remixes),Single,2018-05-25,False,True,False,False
 Armin van Buuren,8a6ff1c5-0076-43b6-b745-5b5e83724771,Therapy (Throttle remix),Single,2018-06-01,False,True,False,False
 Armin van Buuren,276034f9-9059-444b-9972-0846926f0090,Blah Blah Blah,EP,2018-06-08,False,False,False,False
-Armin van Buuren,81020550-7f45-461c-bc82-61405dba78ba,Therapy (Remixes),Single,2018-06-15,False,True,False,False
 Armin van Buuren,1aae83bc-9f1e-43ca-b52a-a876182d3d1f,A State of Trance Top 20 June (Selected by Armin Van Buuren) (2018),Album,2018-06-15,True,False,False,False
+Armin van Buuren,81020550-7f45-461c-bc82-61405dba78ba,Therapy (Remixes),Single,2018-06-15,False,True,False,False
 Armin van Buuren,fe65236a-9608-4bd9-8cc0-fc5844e1a233,Shivers (ALPHA 9 remix),Single,2018-06-22,False,True,False,False
 Armin van Buuren,0dc12c6f-9ff9-4080-ac23-7cf1f3811b58,Live at Ultra Europe 2018 (highlights),Album,2018-07-13,False,False,True,True
 Armin van Buuren,de8251e9-9d49-4b7d-88fb-571bc6122260,A State Of Trance Top 20 - July 2018 (Selected by Armin van Buuren),Album,2018-07-20,True,False,False,False
@@ -320,8 +320,8 @@ Armin van Buuren,56330f39-cf54-47d8-b08a-b9a3b69f385a,Show Me Love,Single,2019-0
 Armin van Buuren,a3da9133-af0c-436d-8d0b-39c2d59d2517,Turn It Up,Single,2019-03-15,False,False,False,False
 Armin van Buuren,3b88e517-c1e1-4e09-9ab1-99b03d497939,A State Of Trance Top 20 - March 2019 (Selected by Armin van Buuren) (Miami Edition),Album,2019-03-15,True,False,False,False
 Armin van Buuren,2ee9b9e6-44c4-4bbe-953f-b16826013682,Don’t Give Up on Me,Single,2019-03-29,False,False,False,False
-Armin van Buuren,20ee8e5a-7cec-4c1d-9516-21b3011c092b,La Résistance de L'Amour,Single,2019-04-12,False,False,False,False
 Armin van Buuren,ff5a0b7c-21e9-4c9e-a474-dd3fcd5d1650,Trilogy,EP,2019-04-12,False,False,False,False
+Armin van Buuren,20ee8e5a-7cec-4c1d-9516-21b3011c092b,La Résistance de L'Amour,Single,2019-04-12,False,False,False,False
 Armin van Buuren,b77d9eef-c28f-4cdf-9f83-c7104494054d,Phone Down,Single,2019-04-19,False,False,False,False
 Armin van Buuren,eb79bd28-9b1f-450e-8d7b-b4a4367d0042,A State of Trance 2019,Album,2019-05-02,True,False,False,True
 Armin van Buuren,a38d35cd-eec2-42ee-82f6-bd93ed4abddc,Hoe het danst,Single,2019-05-08,False,False,False,False
@@ -367,8 +367,8 @@ Armin van Buuren,bea25d58-1d28-4b92-bafd-0549c33f71f6,Boom Boom,Single,2020-06-1
 Armin van Buuren,75281923-e08e-4a73-80c6-3b13e6041dbf,I Need You to Know,Single,2020-07-10,False,False,False,False
 Armin van Buuren,76aaa51f-8262-4f0c-85d4-729acabf9bc7,Lost Tapes,Album,2020-07-31,False,True,False,False
 Armin van Buuren,48f43ee4-c03f-42c9-9725-d681e2550dd8,Illusion,Single,2020-08-14,False,False,False,False
-Armin van Buuren,2b57183a-803e-4263-9974-ea575a86b74f,The Voice,Single,2020-08-28,False,False,False,False
 Armin van Buuren,b3538606-1d5c-4de0-82ab-6b24b1bb8c65,Que Pasa,Single,2020-08-28,False,False,False,False
+Armin van Buuren,2b57183a-803e-4263-9974-ea575a86b74f,The Voice,Single,2020-08-28,False,False,False,False
 Armin van Buuren,4d8960b9-49ea-453f-b7f9-e6538db166ab,Hollow Mask Illusion,EP,2020-09-18,False,False,False,False
 Armin van Buuren,f5a2429e-7fe0-46f1-9462-efc6b0878ab1,Need You Now,Single,2020-10-09,False,False,False,False
 Armin van Buuren,3b662ec6-9e31-46ea-940a-9b450875eba2,Feel Something,Single,2020-11-06,False,False,False,False
@@ -390,8 +390,8 @@ Armin van Buuren,5ea7f2c7-7d28-4a24-ae8c-c786716862e6,Divino,Single,2021-04-23,F
 Armin van Buuren,be25f4eb-3840-4d3b-8e2c-9eb5816a130a,Tell Me Why,Single,2021-05-07,False,False,False,False
 Armin van Buuren,f0235173-deb3-4fe2-bb0f-f7345dbe574f,Let Go,Single,2021-05-14,False,False,False,False
 Armin van Buuren,c01e6a79-e014-4147-b998-1381c888eb5e,Should I Wait (Armin van Buuren presents Rising Star remix),Single,2021-05-21,False,True,False,False
-Armin van Buuren,db7f3d6d-b42b-4e4f-b5e0-3b103c90c990,Battlefield,Single,2021-05-28,False,False,False,False
 Armin van Buuren,69d8e479-5c49-4761-aaab-71e5e80189fe,A State of Trance 2021,Album,2021-05-28,True,False,False,True
+Armin van Buuren,db7f3d6d-b42b-4e4f-b5e0-3b103c90c990,Battlefield,Single,2021-05-28,False,False,False,False
 Armin van Buuren,2c0bfb85-2d4b-49b9-bd2f-da0fb2a1f35d,Goodbye,Single,2021-06-25,False,False,False,False
 Armin van Buuren,7bcd1547-2dff-4bee-b730-73d9c7049f43,I Should Be Loving You,Single,2021-07-16,False,False,False,False
 Armin van Buuren,b86aa289-009b-473a-b9ac-450143f94a2d,Lost in Space,Single,2021-07-23,False,False,False,False
@@ -405,8 +405,8 @@ Armin van Buuren,d72d972a-009c-48e7-8e3d-229d2e4f51fb,Yama,Single,2021-10-22,Fal
 Armin van Buuren,d91ba790-2ca7-4c8c-97ea-55955c0d2287,No Fun,Single,2021-11-19,False,False,False,False
 Armin van Buuren,687a1cc2-6bfc-4e8e-b593-6d52230ec8fa,A State of Trance: Future Favorite - Best of 2021,Album,2021-11-26,True,False,False,False
 Armin van Buuren,edcf8bce-e62e-4e4e-b6cf-8ca2419d3219,A State of Trance Year Mix 2021,Album,2021-12-01,True,False,False,True
-Armin van Buuren,4aa82689-df4b-4c67-8592-29eed540d837,Home With You,Single,2021-12-10,False,False,False,False
 Armin van Buuren,5e12de3f-e354-4258-97aa-7eac584bf0e0,Home With You (Rising Star remix),Single,2021-12-10,False,True,False,False
+Armin van Buuren,4aa82689-df4b-4c67-8592-29eed540d837,Home With You,Single,2021-12-10,False,False,False,False
 Armin van Buuren,366dffce-d536-4bc0-b20a-39ddbbdf9c8e,For All Time,Single,2021-12-15,False,False,False,False
 Armin van Buuren,66e8fda9-0c8d-4da7-9a46-e719aac9d6b4,Soundscape,Single,2021-12-24,False,False,False,False
 Armin van Buuren,734a7cda-7ada-48c7-b855-c5d55835fc8e,Human Touch,Single,2022-01-28,False,False,False,False
@@ -420,15 +420,14 @@ Armin van Buuren,b3feccd2-8544-4eb4-9dac-5dc39a1c9e6f,Echoes,Single,2022-04-28,F
 Armin van Buuren,265e7041-e62b-4314-bdbf-8580569800c5,A State of Trance 2022,Album,2022-04-29,True,False,False,True
 Armin van Buuren,e776651a-1287-4d4e-9f59-b36dcdc576ab,Welcome Home,Single,2022-05-06,False,False,False,False
 Armin van Buuren,54b9fc40-2583-4833-80a3-dc08870259be,Offshore,Single,2022-05-13,False,True,False,False
-Armin van Buuren,13596be7-963d-47b2-b7b7-449fc187f230,"A State Of Trance Top 20 - 2022, Vol. 2",Album,2022-05-27,True,False,False,False
 Armin van Buuren,a355ff25-ee6b-45ee-a25c-d98ef7240556,Feel Again,Single,2022-05-27,False,False,False,False
+Armin van Buuren,13596be7-963d-47b2-b7b7-449fc187f230,"A State Of Trance Top 20 - 2022, Vol. 2",Album,2022-05-27,True,False,False,False
 Armin van Buuren,b1bef392-a552-44d7-88ae-a8cd19dba646,"Feel Again, Part 1",Album,2022-06-10,False,False,False,False
 Armin van Buuren,ad0c49ac-2e8f-47d8-97a5-b4bc5584cdb5,Superman,Single,2022-06-24,False,False,False,False
 Armin van Buuren,ce2c8a16-9dfc-4f05-a471-6ab4a994c58d,One More Time,Single,2022-07-15,False,False,False,False
 Armin van Buuren,ac69336b-9480-4bc5-a7e5-e538802f8f57,Forever & Always,Single,2022-08-12,False,False,False,False
-Armin van Buuren,67211e98-2dd9-4ca8-b407-2898d3d1907f,Clap,Single,2022-08-26,False,False,False,False
 Armin van Buuren,9c6fd886-0d31-404d-8b04-6b45d0ffd95e,A State of Trance: Ibiza 2022,Album,2022-08-26,True,False,False,True
-Armin van Buuren,b52a5813-488b-45b6-84e1-d814bd03d3f0,Clap,Single,2022-08-26,False,False,False,False
+Armin van Buuren,67211e98-2dd9-4ca8-b407-2898d3d1907f,Clap,Single,2022-08-26,False,False,False,False
 Armin van Buuren,bcd9c48c-58be-49c8-8dde-b149425ecfeb,Computers Take Over the World,Single,2022-09-09,False,False,False,False
 Armin van Buuren,dbc70ac7-abff-4c0b-9794-2146f54a609d,Live on Love,Single,2022-09-23,False,False,False,False
 Armin van Buuren,dfd6322a-3978-4103-aa2b-ecfd612d4845,Hey (I Miss You),Single,2022-10-14,False,False,False,False
@@ -463,8 +462,8 @@ Armin van Buuren,3afa665f-d009-4977-86d7-983115993211,Lose This Feeling (Dimensi
 Armin van Buuren,a23fe8ef-646a-450b-a6e4-2e9844434668,God Is in the Soundwaves,Single,2023-10-27,False,False,False,False
 Armin van Buuren,802d87a2-3f3f-47c3-ba5d-125e93f44bbe,EPICA MAXIMA,Single,2023-11-02,False,False,False,False
 Armin van Buuren,905b1d80-9bb0-4d4b-afdc-950825b335b8,Lose This Feeling (Maddix Remix) [Spotify],Single,2023-11-17,False,True,False,False
-Armin van Buuren,fa0116e9-f80f-459f-9757-92bf430afaed,A State of Trance Year Mix 2023,Album,2023-12-08,True,False,False,True
 Armin van Buuren,644cbef7-7990-4a4f-9827-55dceb13f839,Make It Count,Single,2023-12-08,False,False,False,False
+Armin van Buuren,fa0116e9-f80f-459f-9757-92bf430afaed,A State of Trance Year Mix 2023,Album,2023-12-08,True,False,False,True
 Armin van Buuren,a346a4c1-4e89-44c5-a3ea-d230171a350f,Feel Again (Remixes),Album,2023-12-22,False,True,False,False
 Armin van Buuren,14c5baaa-c57e-4b34-b47b-7137460b1763,Forever (Stay Like This),Single,2024-01-10,False,False,False,False
 Armin van Buuren,6b966861-af6c-4d75-87f2-9ad6254e41ca,Breathe In,Album,2024-01-12,False,False,False,False
@@ -517,31 +516,30 @@ Armin van Buuren,c042cb92-3cfe-48ef-b548-f8ffb4c2ea4c,Breathe,Album,2025-06-27,F
 Armin van Buuren,f820760e-61d5-4e97-a557-f115972512fd,Armin van Buuren Classics Mini Mix,Album,2025-07-11,True,False,False,False
 Armin van Buuren,f91c7cba-6d8e-4098-9c02-a121c8840837,Heavy,Single,2025-07-25,False,False,False,False
 Armin van Buuren,2d249268-3f46-4069-a889-f15c076780fd,Sleepless Nights,Single,2025-08-08,False,False,False,False
-Armin van Buuren,3aaa2e66-dce4-4d00-bd0a-9b86d51edfa0,Sleepless Nights,Single,2025-08-08,False,False,False,False
 Armin van Buuren,b58f78e5-dc3f-466c-9730-fd6cb90a96a3,Everything I Wanted,Single,2025-08-21,False,False,False,False
 Armin van Buuren,51479064-7758-4acb-8b5f-e9c2ef75ef2c,A State of Trance: Ibiza 2025,Album,2025-08-22,True,False,False,True
 Armin van Buuren,a0000e2a-e4e5-4fc0-8c83-5511b34fde39,"Ishq Hai (This is Love) [From ""Mismatched, Season 3""]",Single,2025-08-29,False,False,False,False
 Armin van Buuren,6488636b-80f2-4798-9d80-4eb0a4779c03,Techno Trance,Single,2025-09-05,False,False,False,False
 Armin van Buuren,f7fb77e6-5c65-41cd-9866-6b4c1676adb1,House Party,Single,2025-09-19,False,False,False,False
 Armin van Buuren,4def440e-c62f-4612-9193-aee6f2b0ae50,Set Me Free,Single,2025-10-03,False,False,False,False
-Armin van Buuren,dbd2bdd7-19e1-4ace-af25-4c66d0410257,Set Me Free (Remixes),Single,2025-10-17,False,True,False,False
 Armin van Buuren,3be35a53-ad3a-408e-9b10-a20345b2199e,Set Me Free (Darren Styles Remix),Single,2025-10-17,False,True,False,False
+Armin van Buuren,dbd2bdd7-19e1-4ace-af25-4c66d0410257,Set Me Free (Remixes),Single,2025-10-17,False,True,False,False
 Armin van Buuren,6ef6a125-c0eb-4a3d-98e5-9890f54ee135,Put Your Bassline,Single,2025-10-24,False,False,False,False
 Armin van Buuren,eb090a8a-4d88-4e7e-9299-1d3406a0e189,Piano,Album,2025-10-31,False,False,False,False
 Armin van Buuren,f8d5b3bf-7a7d-4779-80fa-fa9f5335a8d2,Sonic Samba,Single,2025-10-31,False,False,False,False
 Armin van Buuren,f5c2ecc2-160a-48a6-8bd9-a29f07a3028e,A State of Trance: Future Favorite - 2025,Album,2025-11-21,True,False,False,False
 Armin van Buuren,e97e7343-4693-4b58-bfe1-d9b14f218fd5,Sonic Samba (Rising Star remix),Single,2025-12-11,False,True,False,False
 Armin van Buuren,4363a333-c1b7-465d-a979-5b1ce48f03fa,A State of Trance Year Mix 2025,Album,2025-12-12,True,False,False,True
-Armin van Buuren,1480620e-50f0-4786-aead-672c6c4cf00c,Breathe (remixes),Album,2025-12-24,False,True,False,False
 Armin van Buuren,1b53cac0-42ab-440f-a719-aabd21f0524e,What Took You So Long,Album,2025-12-24,False,True,False,False
+Armin van Buuren,1480620e-50f0-4786-aead-672c6c4cf00c,Breathe (remixes),Album,2025-12-24,False,True,False,False
 Armin van Buuren,2612e357-c6fb-47af-9346-5ca3197e91ee,Sun Shines on Me,Single,2026-01-02,False,False,False,False
 Armin van Buuren,f8473548-904c-47a7-87d3-fd265b5cd994,Ayi Giri / Dopamine Machine,Single,2026-01-16,False,False,False,False
 Armin van Buuren,c70d71ed-a5bd-4073-9cc3-f851694c3e73,Mouth Go LaLa,Single,2026-02-13,False,False,False,False
 Armin van Buuren,ed535112-82fa-4b56-b2cb-54fa6c4b9e7d,Always You (A State of Trance 2026 ELEVATION Anthem),Single,2026-02-26,False,False,False,False
 Armin van Buuren,4ea61ff7-82fc-488a-9861-29de4460cef6,Lost in Time,Single,2026-03-20,False,False,False,False
 Armin van Buuren,a320ea93-a32b-40b5-925f-037efb9a4aad,Vem Comigo,Single,2026-04-10,False,False,False,False
-Armin van Buuren,f925d620-b978-4f51-992c-fbe3c927b2be,Future Favorites Top 25 - A State of Trance 25 Years,Album,2026-04-17,True,False,False,False
 Armin van Buuren,a67c4718-d713-40a0-8e5f-2bb6c8e9ff3c,Future Favorites Top 25 - A State of Trance 25 Years (Extended Versions),Album,2026-04-17,False,False,False,False
+Armin van Buuren,f925d620-b978-4f51-992c-fbe3c927b2be,Future Favorites Top 25 - A State of Trance 25 Years,Album,2026-04-17,True,False,False,False
 Armin van Buuren,400b81ae-c7ce-422c-9062-926c40a38949,Like a Child,Single,2026-04-24,False,False,False,False
 Armin van Buuren,ab275c20-91c1-4ffb-ad78-10a326f0716d,She a Freak,Single,2026-05-01,False,False,False,False
 Armin van Buuren,86c70fd9-04fe-4dc5-b00a-bca88d6a17da,Serendipity,Single,2026-05-07,False,False,False,False
@@ -554,8 +552,8 @@ Armin van Buuren,088b9ff6-87d0-4a51-8642-a6c41a4905f7,A State of Trance 25 Years
 Armin van Buuren,2669996f-5618-4a70-b9bc-eb52bc0e8c04,No Mercy,Single,2026-06-26,False,False,False,False
 Armin van Buuren,c1b2641a-62c2-4eab-a150-c131c1b1a350,Here in My Arms (Enjoy the Silence),Single,2026-07-10,False,False,False,False
 Armin van Buuren,200e9b26-fe17-4313-828d-ee79a1abda39,Parookaville 2026,Single,2026-07-19,False,False,True,False
-Armin van Buuren,ad6c8126-ee07-4924-9282-0e785d8d4ce3,Everlasting (Rising Star remix),Single,2026-07-31,False,True,False,False
 Armin van Buuren,a068f133-3f01-4fb5-8cbf-a579cf35cc54,Everlasting,Single,2026-07-31,False,False,False,False
+Armin van Buuren,ad6c8126-ee07-4924-9282-0e785d8d4ce3,Everlasting (Rising Star remix),Single,2026-07-31,False,True,False,False
 Armin van Buuren,3622265d-9462-4ec1-bc99-69f99669630c,A State of Trance Anthems (Remixes),EP,2026-08-07,False,True,False,False
 Armin van Buuren,03e57f6f-0ff1-4a3b-aba9-01ac5acb63c8,Burn It Up,Single,2026-08-14,False,False,False,False
 Armin van Buuren,2095bd35-d56b-4f7d-96b5-9f8ebe2c2c35,Starbound,Single,2026-08-27,False,False,False,False

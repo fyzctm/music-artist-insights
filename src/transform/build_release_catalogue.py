@@ -94,6 +94,17 @@ def transform_release_groups(
         subset=["first_release_date"]
     )
 
+    # Deduplicate MusicBrainz release groups that represent
+# the same analytical release.
+    df = df.drop_duplicates(
+    subset=[
+        "artist_name",
+        "title",
+        "first_release_date",
+        "primary_type",
+    ],
+    keep="first",
+)
     df = df.sort_values(
         "first_release_date"
     )
